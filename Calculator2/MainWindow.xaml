@@ -1,0 +1,275 @@
+﻿<Window x:Class="Calculator2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator2"
+        mc:Ignorable="d"
+       Title="Калькулятор" Height="450" Width="360" Background="#FF5B74C9">
+    <Grid x:Name="LayoutRoot" Background="#FF5B74C9">
+        <TextBlock 
+            Name="textBlock"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Stretch"
+            Margin="13,20,13,0" Height="142"
+            Background="White"
+            >
+            <TextBlock.Effect>
+                <DropShadowEffect/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <Button
+            Name="One"
+            Height="50"
+            Width="60"
+            Content="1"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,300,280,69" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Two"
+            Height="50"
+            Width="60"
+            Content="2"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,300,200,69" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Three"
+            Height="50"
+            Width="60"
+            Content="3"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,300,120,69" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Four"
+            Height="50"
+            Width="60"
+            Content="4"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,245,280,124" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Five"
+            Height="50"
+            Width="60"
+            Content="5"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,245,200,124" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Six"
+            Height="50"
+            Width="60"
+            Content="6"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,245,120,124" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Seven"
+            Height="50"
+            Width="60"
+            Content="7"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,190,280,179" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Eight"
+            Height="50"
+            Width="60"
+            Content="8"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,190,200,179"
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Nine"
+            Height="50"
+            Width="60"
+            Content="9"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,190,120,179"
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Zero"
+            Height="50"
+            Width="60"
+            Content="0"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,359,200,10" 
+            Background="White" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Plus"
+            Height="50"
+            Width="100"
+            Content="+"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,190,10,179" 
+            Background="#FFF3C154" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Minus"
+            Height="50"
+            Width="100"
+            Content="-"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,245,10,124"
+            Background="#FFF3C154" BorderBrush="Black"
+            >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Multiplication"
+            Height="50"
+            Width="100"
+            Content="*"
+            FontSize="45"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,300,10,69"
+            Background="#FFF3C154" BorderBrush="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Division"
+            Height="50"
+            Width="100"
+            Content="/"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,359,10,10"
+            Background="#FFF3C154" BorderBrush="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Equally"
+            Height="50"
+            Width="60"
+            Content="="
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,359,120,10"
+            Background="#FFF3C154" BorderBrush="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+        <Button
+            Name="Del"
+            Height="50"
+            Width="60"
+            Content="C"
+            FontSize="30"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Right"
+            Margin="0,359,279,10" 
+            Background="#FFF3C154" BorderBrush="Black">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+
+</Window>
